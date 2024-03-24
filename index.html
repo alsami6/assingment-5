@@ -1,132 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRTC</title>
     <!-- css link -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <!-- daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white p-3">
+  </head>
+  <body class="bg-white p-3">
     <header>
-        <nav class="flex justify-center">
-            <div class="text-black text-4xl font-bold pl-1 pt-6 raleway"><a href="">BRTC</a></div>
-            <div>
-                <ul class="flex pt-7 gap-14 pl-[300px] pr-[300px] raleway">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Destination</a></li>
-                    <li><a href="">Search</a></li>
-                </ul>
-            </div>
-            <div class="flex p-3 rounded-md gap-2 pt-2 mt-4 bg-green-200 raleway">
-                <div class="text-green-700 text-xl">Bus</div>
-                <div class="pt-1"><img src="images/bus-icon.png" alt=""></div>
-            </div>
-        </nav>
-
-        <div class="bg-[url(images/banner.png)] bg bg-no-repeat bg-center raleway">
-            <div class="text-6xl font-extrabold text-white flex justify-center pt-[120px]">End-to-End Travel with</div>
-            <div class="text-6xl font-extrabold text-green-500 flex justify-center pt-4">BRTC</div>
-            <div class="text-xl text-gray-300 inter flex justify-center pt-10 pb-12">Yes, you can run unit tests and view the results directly within the app.<br> The integrated testing features allow for a streamlined.</div>
-            <div class="flex justify-center pb-[200px]"><button class="btn text-black bg-green-400 border-none">Buy Tickets</button></div>
+      <nav class="flex justify-center">
+        <div class="text-black text-4xl font-bold pl-1 pt-6 raleway">
+          <a href="">BRTC</a>
         </div>
+        <div>
+          <ul class="flex pt-7 gap-14 pl-[300px] pr-[300px] raleway">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">Search</a></li>
+          </ul>
+        </div>
+        <div class="flex p-3 rounded-md gap-2 pt-2 mt-4 bg-green-200 raleway">
+          <div class="text-green-700 text-xl">Bus</div>
+          <div class="pt-1"><img src="images/bus-icon.png" alt="" /></div>
+        </div>
+      </nav>
 
+      <div
+        class="bg-[url(images/banner.png)] bg bg-no-repeat bg-center raleway"
+      >
+        <div
+          class="text-6xl font-extrabold text-white flex justify-center pt-[120px]"
+        >
+          End-to-End Travel with
+        </div>
+        <div
+          class="text-6xl font-extrabold text-green-500 flex justify-center pt-4"
+        >
+          BRTC
+        </div>
+        <div
+          class="text-xl text-gray-300 inter flex justify-center pt-10 pb-12"
+        >
+          Yes, you can run unit tests and view the results directly within <br> the
+          app.
+          The integrated testing features allow for a streamlined.
+        </div>
+        <div class="flex justify-center pb-[200px]">
+          <button class="btn text-black bg-green-400 border-none">
+            Buy Tickets
+          </button>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="pt-[140px]">
-            
-            <div class="text-black text-5xl font-bold flex justify-center">Best offers for you</div>
-            
-            <div class="pb-[90px] flex justify-center">
-              <div class="bg-yellow-500 text-black p-[50px] mt-16 rounded-3xl flex justify-between w-[490px]">
-                 <div class="inter">
-                    <h5 class="text-3xl pb-4 font-extrabold">15% OFF</h5>
-                    <p class="pb-1 font-bold">on your next purchase</p>
-                    <p>use by January 2024</p>
-                 </div>
+      <section class="pt-[140px]">
+        <div class="text-black text-5xl font-bold flex justify-center">
+          Best offers for you
+        </div>
 
-                 <div class="raleway">
-                    <H3 class="pt-3 font-extrabold text-3xl">NEW15</H3>
-                    <p>Coupon code</p>
-                 </div>
-
-                </div>
-
-
-
-                 <div class="bg-pink-300 text-black p-[50px] mt-16 ml-[40px] rounded-3xl flex justify-between w-[490px]">
-                    <div class="inter">
-                      <h5 class="text-3xl pb-4 font-extrabold">20% OFF</h5>
-                      <p class="pb-1 font-bold">on your next purchase</p>
-                      <p>use by January 2024</p>
-                    </div>
-
-                    <div class="raleway">
-                        <h3 class="pt-3 font-extrabold text-3xl">Couple 20</h3>
-                        <p>Coupon code</p>
-                    </div>
-              
-                </div>
-            
-            </div>  
-            <div class="flex justify-center pb-[260px]"><button class="btn bg-green-100 text-green-800 border-green-600">See more</button></div>
-        </section>
-        <section class="p-28">
-            <div class="text-5xl text-black raleway font-bold flex justify-center pb-6">BRTC</div>
-            <div class="inter text-xl text-black flex justify-center mb-28">Yes, you can run unit tests and view the results directly within <br> the app. The integrated testing features allow for a streamlined .</div>
-            
-            <div class="flex justify-center">
-                <div>
-                    <div class="flex justify-between pt-7">
-                        <div class="flex">
-                            <div class="pt-2 pr-4"><img src="images/bus-logo.png" alt=""></div>
-                            <div class="raleway">
-                                <h3 class="text-3xl text-black font-bold raleway">BRTC</h3>
-                                <p class="inter text-xl text-black">Coach-008-WEB ! AC-Business</p>
-                            </div>
-                        </div>
-                        <div class="flex bg-green-100 pt-4 rounded-lg pr-3 pl-2">
-                            <div><img src="images/seat-green-filled.png" alt=""></div>
-                            <div class="inter text-green-800 text-2xl"><span>40</span>seats Left</div>
-                        </div>
-                    </div>
-                    <div class="inter bg-slate-200 pt-8 pl-10 pr-10 pb-8 rounded-xl mt-6">
-                        <div class="flex justify-between">
-                            <div class="text-xl text-black mb-2">Route</div>
-                            <div class="text-xl text-black">Dhaka-Khula</div>
-                        </div>
-                        <div class="flex justify-between">
-                            <div class="text-xl text-black">Departure Time</div>
-                            <div class="text-xl text-black">9:00 PM</div>
-                        </div>
-                        <div class="flex pt-4 gap-4">   
-                        <div class="text-gray-800 bg-slate-400 p-2 rounded-md">Bording point - Dhaka</div>
-                        <div class="text-gray-800 bg-slate-400 p-2 rounded-md">Droping point - Khulna</div>
-                        <div class="text-gray-800 bg-slate-400 p-2 rounded-md">Est. Time - 11 Hour</div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="images/info-devider.png" alt="">
-                </div>
-                <div class="raleway pt-28">
-                    <div class="flex justify-center"><img src="images/fare.png" alt=""></div>
-                    <H2 class="text-black font-bold text-4xl">550 Taka</H2>
-                    <p class="text-center">Per Seat</p>
-                </div>
+        <div class="pb-[90px] flex justify-center">
+          <div
+            class="bg-yellow-500 text-black p-[50px] mt-16 rounded-3xl flex justify-between w-[490px]"
+          >
+            <div class="inter">
+              <h5 class="text-3xl pb-4 font-extrabold">15% OFF</h5>
+              <p class="pb-1 font-bold">on your next purchase</p>
+              <p>use by January 2024</p>
             </div>
-        </section>
-        <section>
-            
-        </section>
+
+            <div class="raleway">
+              <h3 class="pt-3 font-extrabold text-3xl">NEW15</h3>
+              <p>Coupon code</p>
+            </div>
+          </div>
+
+          <div
+            class="bg-pink-300 text-black p-[50px] mt-16 ml-[40px] rounded-3xl flex justify-between w-[490px]"
+          >
+            <div class="inter">
+              <h5 class="text-3xl pb-4 font-extrabold">20% OFF</h5>
+              <p class="pb-1 font-bold">on your next purchase</p>
+              <p>use by January 2024</p>
+            </div>
+
+            <div class="raleway">
+              <h3 class="pt-3 font-extrabold text-3xl">Couple 20</h3>
+              <p>Coupon code</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center pb-[260px]">
+          <button class="btn bg-green-100 text-green-800 border-green-600">
+            See more
+          </button>
+        </div>
+      </section>
+      <section class="p-28">
+        <div
+          class="text-5xl text-black raleway font-bold flex justify-center pb-6"
+        >
+          BRTC
+        </div>
+        <div class="inter text-xl text-black flex justify-center mb-28">
+          Yes, you can run unit tests and view the results directly within
+          <br />
+          the app. The integrated testing features allow for a streamlined.
+        </div>
+
+        <div class="flex justify-center">
+          <div>
+            <div class="flex justify-between pt-7">
+              <div class="flex">
+                <div class="pt-2 pr-4">
+                  <img src="images/bus-logo.png" alt="" />
+                </div>
+                <div class="raleway">
+                  <h3 class="text-3xl text-black font-bold raleway">BRTC</h3>
+                  <p class="inter text-xl text-black">
+                    Coach-008-WEB ! AC-Business
+                  </p>
+                </div>
+              </div>
+              <div class="flex bg-green-100 pt-4 rounded-lg pr-3 pl-2">
+                <div><img src="images/seat-green-filled.png" alt="" /></div>
+                <div class="inter text-green-800 text-2xl">
+                  <span>40</span>seats Left
+                </div>
+              </div>
+            </div>
+            <div
+              class="inter bg-slate-200 pt-8 pl-10 pr-10 pb-8 rounded-xl mt-6"
+            >
+              <div class="flex justify-between">
+                <div class="text-xl text-black mb-5">Route</div>
+                <div class="text-xl text-black mb-5">Dhaka-Khula</div>
+              </div>
+              <div class="flex justify-between">
+                <div class="text-xl text-black">Departure Time</div>
+                <div class="text-xl text-black">9:00 PM</div>
+              </div>
+              <div class="flex pt-6 gap-4">
+                <div class="text-black bg-slate-400 p-2 rounded-md">
+                  Bording point - Dhaka
+                </div>
+                <div class="text-black bg-slate-400 p-2 rounded-md">
+                  Droping point - Khulna
+                </div>
+                <div class="text-black bg-slate-400 p-2 rounded-md">
+                  Est. Time - 11 Hour
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="images/info-devider.png" alt="" />
+          </div>
+          <div class="raleway pt-28">
+            <div class="flex justify-center">
+              <img src="images/fare.png" alt="" />
+            </div>
+            <h2 class="text-black font-bold text-4xl pt-5">550 Taka</h2>
+            <p class="text-center pt-4">Per Seat</p>
+          </div>
+        </div>
+      </section>
+      <section class="p-[130px]">
+        <div>
+          <h2>Select You Seat</h2>
+          <div class="flex mt-4">
+            <div>
+              <div><img src="images/seat-gray.png" alt="" /></div>
+              <div>Available</div>
+            </div>
+            <div>
+              <div><img src="images/seat-green-filled.png" alt="" /></div>
+              <div>Selected</div>
+            </div>
+          </div>
+          <div class="flex gap-24">
+            <div class="flex gap-14">
+              <div class="grid grid-cols-2 gird-rows-10 gap-5">
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">B1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">B2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">C1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">C2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">D1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">D2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">E1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">E2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">F1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">F2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">G1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">G2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">H1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">H2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">I1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">I2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">J1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">J2</button>
+              </div>
+              <div class="grid grid-cols-2 gird-rows-10 gap-5">
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">B1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">B2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">C1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">C2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">D1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">D2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">E1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">E2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">F1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">F2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">G1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">G2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">H1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">H2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">I1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">I2</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">J1</button>
+                <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">J2</button>
+              </div>              
+          </div>
+          <div class="">
+              <h2>Select Your Seat</h2>
+              <div>
+                <div class="flex gap-24">
+                  <div>Seat <span>0</span></div>
+                  <div>Class</div>
+                  <div>Price</div>
+                </div>
+                <div class="flex gap-24">
+                  <div><span>0</span></div>
+                  <div>Economoy</div>
+                  <div>550</div>
+                </div>
+                <div class="flex gap-24">
+                  <div><span>0</span></div>
+                  <div>Economoy</div>
+                  <div>550</div>
+                </div>
+                <div class="flex gap-24">
+                  <div><span>0</span></div>
+                  <div>Economoy</div>
+                  <div>550</div>
+                </div>
+                <div class="flex gap-24">
+                  <div><span>0</span></div>
+                  <div>Economoy</div>
+                  <div>550</div>
+                </div>
+                <div>
+                  <div>Total Price</div>
+                  <div>BDT <span>0</span></div>
+                </div>
+                <div>
+                  <div>Have any cupon code?</div>
+                  <div><button>Apply</button></div>
+                </div>
+                <div>
+                  <div>Grand Total</div>
+                  <div>BDT <span>0</span></div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
-</body>
-<script src="scripts/main.js"></script>
-<script src="scripts/tailwind.config.js"></script>
-<script src="scripts/uitility.js"></script>
+  </body>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/tailwind.config.js"></script>
+  <script src="scripts/uitility.js"></script>
 </html>
