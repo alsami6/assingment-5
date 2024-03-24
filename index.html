@@ -173,21 +173,21 @@
           </div>
         </div>
       </section>
-      <section class="p-[130px]">
+      <section class="p-[130px] flex justify-center">
         <div>
-          <h2>Select You Seat</h2>
-          <div class="flex mt-4">
-            <div>
-              <div><img src="images/seat-gray.png" alt="" /></div>
-              <div>Available</div>
+          <h2 class="text-black font-bold text-3xl pl-32">Select You Seat</h2>
+          <div class="flex justify-between mt-4 mb-4">
+            <div class="ml-32 inter bg-slate-200 flex pt-2 pl-3 pr-3 pb-2 font-bold rounded-md">
+              <div class="pr-1"><img src="images/seat-gray.png" alt="" /></div>
+              <div class="">Available</div>
             </div>
-            <div>
+            <div class="mr-[0px] ml-32 inter bg-green-200 text-green-800 font-bold flex pt-2 pl-3 pr-3 rounded-md">
               <div><img src="images/seat-green-filled.png" alt="" /></div>
               <div>Selected</div>
             </div>
-          </div>
-          <div class="flex gap-24">
-            <div class="flex gap-14">
+            </div>
+            <div class="flex gap-28 pl-32">
+            <div class="flex gap-16">
               <div class="grid grid-cols-2 gird-rows-10 gap-5">
                 <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A1</button>
                 <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">A2</button>
@@ -233,45 +233,58 @@
                 <button class="px-3 py-2 bg-slate-100 shadow-sm text-center rounded-md ">J2</button>
               </div>              
           </div>
-          <div class="">
-              <h2>Select Your Seat</h2>
-              <div>
-                <div class="flex gap-24">
+          <div class="inter">
+              <h2 class="text-black text-2xl font-bold pb-2">Select Your Seat</h2>
+              <div class="">
+                <div class="flex gap-24 font-bold text-black mb-4 mt-6">
                   <div>Seat <span>0</span></div>
                   <div>Class</div>
-                  <div>Price</div>
+                  <div class="pl-4">Price</div>
                 </div>
-                <div class="flex gap-24">
+                <div class="flex gap-24 mb-2">
                   <div><span>0</span></div>
-                  <div>Economoy</div>
+                  <div class="pl-6">Economoy</div>
+                  <div class="">550</div>
+                </div>
+                <div class="flex gap-24 mb-2">
+                  <div><span>0</span></div>
+                  <div class="pl-6">Economoy</div>
                   <div>550</div>
                 </div>
-                <div class="flex gap-24">
-                  <div><span>0</span></div>
-                  <div>Economoy</div>
+                <div class="flex gap-24 mb-2">
+                  <div class=""><span>0</span></div>
+                  <div class="pl-6">Economoy</div>
                   <div>550</div>
                 </div>
-                <div class="flex gap-24">
+                <div class="flex gap-24 mb-6">
                   <div><span>0</span></div>
-                  <div>Economoy</div>
+                  <div class="pl-6">Economoy</div>
                   <div>550</div>
                 </div>
-                <div class="flex gap-24">
-                  <div><span>0</span></div>
-                  <div>Economoy</div>
-                  <div>550</div>
+                <div class="flex justify-between">
+                  <div class="text-black font-bold">Total Price</div>
+                  <div class="text-black font-bold">BDT <span>0</span></div>
+                </div>
+                <div class="flex justify-between p-4 bg-slate-200 rounded-2xl mt-4 mb-4 ">
+                  <div class=" pt-1"><input class="bg-slate-200 text-black" type="text" placeholder="Have any cupon?"></div>
+                  <div class="bg-green-500 text-white px-4 py-1 rounded-xl"><button>Apply</button></div>
+                </div>
+                <div class="flex justify-between">
+                  <div class="text-black font-bold">Grand Total</div>
+                  <div class="text-black font-bold">BDT <span>0</span></div>
+                </div>
+                <div class="mt-8">
+                  <h2 class="text-black text-xl font-bold mb-3">Passanger Name*</h2>
+                  <div><input class="mb-3 bg-gray-50 text-gray-700" type="text" placeholder="Your Name"></div>
                 </div>
                 <div>
-                  <div>Total Price</div>
-                  <div>BDT <span>0</span></div>
+                  <h2 class="text-black text-xl font-bold mb-3">Phone Number*</h2>
+                  <div><input class="bg-gray-50 text-gray-700" type="text" placeholder="Your Number"></div>
                 </div>
-                <div>
-                  <div>Have any cupon code?</div>
-                  <div><button>Apply</button></div>
-                </div>
-                <div>
-                  <div>Grand Total</div>
-                  <div>BDT <span>0</span></div>
+                <div class="inter flex justify-center mt-4 ">
+                  <button class="text-white bg-green-600 py-2 px-40 rounded-lg font-bold text-xl">
+                    Next
+                  </button>
                 </div>
               </div>
           </div>
@@ -279,7 +292,9 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
   <script src="scripts/main.js"></script>
   <script src="scripts/tailwind.config.js"></script>
