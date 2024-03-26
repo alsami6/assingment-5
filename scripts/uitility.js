@@ -14,4 +14,3 @@ function funBtn(elementId){
     CC.style.backgroundColor = 'green';
     CC.style.color = 'white';
 }
-
